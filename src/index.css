@@ -101,7 +101,7 @@ label{
   @apply bg-cardBg rounded-md py-1 px-2 border border-border
 }
 .navbar {
-  @apply fixed left-1/2 -translate-x-1/2 flex justify-between top-5   bg-navbarBg backdrop-blur-md z-10 rounded-lg border border-border items-center w-[1200px] py-2 px-4 text-primaryText;
+  @apply  fixed left-1/2 -translate-x-1/2 flex justify-between top-0 md:top-5 w-[500px] bg-black  md:bg-navbarBg backdrop-blur-md z-10 rounded-lg border-2 border-none border-b-border  md:border-border  items-center lg:w-[1200px] py-4 md:py-2 px-4 text-primaryText ;
 }
 
 .navbar.change {

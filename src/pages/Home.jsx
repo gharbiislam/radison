@@ -14,20 +14,22 @@ import Process from '../components/Process';
 
 const Home = () => {
   return (
-     <div className="App bg-black flex items-start justify-center text-center ">
+    <div className="App bg-black flex items-start justify-center text-center ">
       <div className="container mx-5 space-y-5">
         <Navbar />
-        <HeroSection/>
-       <ShortIntro/>
-       <Process/>
-      <Services/>
-     <Benefits/>
-     <Plans/>
-     <Faqs/>
-     <CTA/>
-     <Testimonials/>
-     <Contact/>
-     <Footer/>
+        <HeroSection />
+        <ShortIntro />
+        <Process />
+        <Services />
+        <Benefits />
+        <Plans />
+        <Testimonials />
+        <Contact />
+        <Faqs />
+        <CTA />
+
+
+        <Footer />
       </div>
     </div>
   )

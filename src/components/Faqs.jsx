@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HiChevronDown } from "react-icons/hi";
-
+import 'aos/dist/aos.css'
 const Faqs = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -38,22 +38,22 @@ const Faqs = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen text-center ">
+      <div data-aos='fade-up'> 
+
       <span className="badge">FAQs</span>
+
       <div className="py-8">
-      <h2 className="text-h2 lg:text-h2-lg">We’re here to help</h2>
-      <p className="subtitle">
-        FAQs designed to provide the information you need.
-      </p>
-</div>
-      <section className="md:w-3/5 relative ">
-        <span className="shade"></span>
+        <h2 className="text-h2 lg:text-h2-lg">We’re here to help</h2>
+        <p className="subtitle"> FAQs designed to provide the information you need. </p>
+      </div>
+
+    </div>
+    <section className="md:w-3/5 relative " data-aos='fade-up'>
+      <span className="shade"></span>
 
         {faqs.map((faq, index) => (
           <div key={index} className="mt-3 faqs_card">
-            <button
-              onClick={() => toggleFaq(index)}
-              className="faqs_title "
-            >
+            <button onClick={() => toggleFaq(index)}  className="faqs_title " >
               <span>{faq.question}</span>
               <HiChevronDown
                 className={`w-5 h-5 transition-transform duration-300 ${

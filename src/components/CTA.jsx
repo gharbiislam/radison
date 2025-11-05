@@ -4,7 +4,7 @@ import logo from '../assets/logos/icon.png'
 
 const CTA = () => {
     return (
-        <div className='flex flex-col items-center justify-center'>
+        <div className='flex flex-col items-center justify-center' data-aos='fade-up'>
             <div className='relative py-16 md:max-w-md space-y-5 text-center'>
                 <span className='absolute w-36 h-36 bg-blue blur-2xl opacity-30 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'></span>
                 
@@ -14,6 +14,7 @@ const CTA = () => {
                 </span>
 
                 <h2 className="text-h2 lg:text-h2-lg">Let’s talk about your next big move</h2>
+                
                 <p className='subtitle'>Hop on a call with us to see how our services can accelerate your growth.</p>
                 
                 <div className="flex justify-center">
