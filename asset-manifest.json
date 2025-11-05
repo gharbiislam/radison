@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "//radison/static/css/main.c4fa1969.css",
+    "main.js": "//radison/static/js/main.e57bee76.js",
+    "static/media/vd4.mp4": "//radison/static/media/vd4.59581d14ab4b704d2eec.mp4",
+    "static/media/p1.mp4": "//radison/static/media/p1.4d62241ef023f9ee7248.mp4",
+    "static/media/vd2.mp4": "//radison/static/media/vd2.d5d369f9556c1cef5ba6.mp4",
+    "static/media/p2.mp4": "//radison/static/media/p2.8962f70a8457512983b4.mp4",
+    "static/media/p3.mp4": "//radison/static/media/p3.b4a7073a1c372de78345.mp4",
+    "static/media/vd3.mp4": "//radison/static/media/vd3.63b4d5823998052e3ff7.mp4",
+    "static/media/vd5.mp4": "//radison/static/media/vd5.f511412b2800845adce3.mp4",
+    "static/media/vd1.mp4": "//radison/static/media/vd1.37d88718d5564c810b47.mp4",
+    "static/media/priya.png": "//radison/static/media/priya.aed04ae119861ce07618.png",
+    "static/media/miguel.png": "//radison/static/media/miguel.dcbe02780eeb4eaea239.png",
+    "static/media/dean.png": "//radison/static/media/dean.2d46b37dad47517a07b0.png",
+    "static/media/emily.png": "//radison/static/media/emily.7ca4192bfdfe024c2fb7.png",
+    "static/media/james.png": "//radison/static/media/james.f55ecb556e8bf836f333.png",
+    "static/media/liam.png": "//radison/static/media/liam.78558162bd1aa9f9e59c.png",
+    "static/media/logo1.png": "//radison/static/media/logo1.a3c9c7e4590dcf2ca6d0.png",
+    "static/media/logo3.png": "//radison/static/media/logo3.41d40527009755825650.png",
+    "static/media/logo2.png": "//radison/static/media/logo2.2023548ae86f6fbcb893.png",
+    "index.html": "//radison/index.html",
+    "static/media/index.cjs": "//radison/static/media/index.f6d03137e8c9dd0de04c.cjs",
+    "main.c4fa1969.css.map": "//radison/static/css/main.c4fa1969.css.map",
+    "main.e57bee76.js.map": "//radison/static/js/main.e57bee76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4fa1969.css",
+    "static/js/main.e57bee76.js"
+  ]
+}
