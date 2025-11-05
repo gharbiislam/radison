@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+  @apply text-h1 text-primaryText;
+
+}
+
+h2 {
+  @apply text-h2 text-primaryText;
+
+}
+
+h3 {
+  @apply text-h3 text-primaryText;
+
+}
+
+.card_title {
+  @apply text-cardTitle text-primaryText;
+
+
+}
+
+.card_content {
+  @apply text-cardContent text-secondaryText line-clamp-3;
+
+
+}
+
+.icon {
+  @apply bg-ui text-primaryText p-1 rounded-lg ;
+} 
+
+.benefit_card {
+  @apply relative bg-cardBg py-5 px-7 text-left rounded-3xl border border-border overflow-hidden
+}
+
+.card_shade {
+  @apply absolute -top-10 -right-10 w-36 h-36 bg-blue rounded-full opacity-30 blur-2xl;
+
+}
+
+
+.subtitle{
+  @apply md:text-bodyM text-secondaryText my-2 sm:text-bodyXXXS;
+}
+
+
+.badge {
+  @apply bg-badge text-secondaryText py-1 px-3 border border-border rounded-lg;
+}
+
+.faqs_card {
+  @apply relative py-4 px-5 border bg-cardBg border-border rounded-2xl w-full text-left
+}
+.shade{
+ @apply absolute top-40 left-5 w-full h-52 bg-blue rounded-full opacity-10 blur-2xl -rotate-12;}
+
+.faqs_title{
+  @apply text-bodyM text-primaryText flex items-center justify-between w-full
+}
+.btn_solid{
+ @apply bg-blue py-2 px-2 flex justify-center items-center text-primaryText font-normal rounded-lg border  border-border   hover:border-ui 
+}
+input, textarea{
+  @apply bg-cardBg p-3 border border-border w-full rounded-lg focus:border-blue
+}
+label{
+  @apply text-bodyXXS text-primaryText }
+
+.submit{
+  @apply bg-blue hover:bg-ui w-full text-white p-2 rounded-lg
+}
+
+.icons li a{
+  @apply text-primaryText  p-2 rounded-lg text-3xl mx-5 
+}
+
+.section li a  {
+  @apply text-secondaryText text-bodyXS hover:text-primaryText 
+}
+ Link{
+  @apply text-secondaryText text-bodyXS hover:text-primaryText 
+}
+.plan_card{
+  @apply bg-cardBg  border border-border pt-0 pb-7 px-7 rounded-3xl text-left space-y-9 relative
+}
+.btn{
+@apply bg-cardBg border border-border text-primaryText font-normal rounded-lg py-2 px-4 hover:border-ui;
+}
+.menu a:active{
+  @apply bg-cardBg rounded-md py-1 px-2 border border-border
+}
+.navbar {
+  @apply fixed left-1/2 -translate-x-1/2 flex justify-between top-5   bg-navbarBg backdrop-blur-md z-10 rounded-lg border border-border items-center w-[1200px] py-2 px-4 text-primaryText;
+}
+
+.navbar.change {
+  @apply w-[500px] }
+
+  
