@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/radison/static/css/main.c4fa1969.css",
-    "main.js": "/radison/static/js/main.0ecdaee1.js",
+    "main.js": "/radison/static/js/main.c0e13eed.js",
     "static/media/vd4.mp4": "/radison/static/media/vd4.59581d14ab4b704d2eec.mp4",
     "static/media/p1.mp4": "/radison/static/media/p1.4d62241ef023f9ee7248.mp4",
     "static/media/vd2.mp4": "/radison/static/media/vd2.d5d369f9556c1cef5ba6.mp4",
@@ -22,10 +22,10 @@
     "index.html": "/radison/index.html",
     "static/media/index.cjs": "/radison/static/media/index.f6d03137e8c9dd0de04c.cjs",
     "main.c4fa1969.css.map": "/radison/static/css/main.c4fa1969.css.map",
-    "main.0ecdaee1.js.map": "/radison/static/js/main.0ecdaee1.js.map"
+    "main.c0e13eed.js.map": "/radison/static/js/main.c0e13eed.js.map"
   },
   "entrypoints": [
     "static/css/main.c4fa1969.css",
-    "static/js/main.0ecdaee1.js"
+    "static/js/main.c0e13eed.js"
   ]
 }
